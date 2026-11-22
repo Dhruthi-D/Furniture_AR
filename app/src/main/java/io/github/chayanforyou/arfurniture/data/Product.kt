@@ -6,5 +6,7 @@ data class Product(
     var name: String,
     var description: String,
     var modelName: String,
-    var price: Float = 0f
+    var price: Float = 0f,
+    var dimensions: String = "",
+    var category: String = "All"
 )
